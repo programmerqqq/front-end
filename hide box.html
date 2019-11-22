@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>hide box</title>
+    <style>
+        button{ margin: 10px;}
+        div{
+            height:200px;
+            width: 200px;
+            background-color: pink;}
+        .show{display: block;}
+        .hide{display:none}
+    </style>
+</head>
+<body>
+<button id="btn">隐藏</button>
+<div >this is a box</div>
+<script>
+    var btn=document.getElementById("btn");
+    var div1 = document.getElementsByTagName("div")[0];
+    btn.onclick=function(){
+        if(this.innerHTMML=="隐藏"){
+        div1.className="hide";
+        btn.innerHTML="显示";}
+        else{
+        div1.className="show";
+        btn.innerHTML="隐藏";}
+        }
+</script>
+</body>
+</html>
