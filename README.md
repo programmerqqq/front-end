@@ -8,4 +8,8 @@ Our website can also search movies from IMDB database  and write review, see oth
 1 the top 100 display page  
 2 review page
 #### file description
-there are four pages in our website homepage, movie details page, moives page,reviewspage,watchlist page.
+there are four pages in our website  we do different pages in different files and we use react-app and redux
+homepage,    
+movie details page,   
+moives page,reviewspage,  
+watchlist page.
