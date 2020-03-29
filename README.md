@@ -7,6 +7,10 @@ Our website can also search movies from IMDB database  and write review, see oth
 #### what we will do
 1 the top 100 display page  
 2 review page
+3 Clean Container-Presentational separation
+4 Improve UX
+5 Improve code structure
+
 #### file description
 there are four pages in our website  we do different pages in different files and we use react-app and redux
 homepage,    
@@ -18,4 +22,3 @@ we use imdb/src/compoents/homepage.js,imdb/src/compoents/homepage.css to achieve
 we use imdb/src/compoents/MovieDetailpage.js,imdb/src/compoents/MovieDetailpage.css to achieve the MovieDetailpage
 we use imdb/src/compoents/reviewpage.js to achieve the reviewpage,but we haven't do the css part.
 we use imdb/src/compoents/watchlistpage.js to achieve the watchlistpage,but we haven't do the css part.
-
